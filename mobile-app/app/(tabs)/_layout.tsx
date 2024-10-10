@@ -11,13 +11,13 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <FontAwesome size={28} name="home" color={color} />,
         }}
       />
-      <Tabs.Screen
+      {/* <Tabs.Screen
         name="caesar-salad"
         options={{
           title: 'Caesar Salad',
           tabBarIcon: ({ color }) => <FontAwesome size={28} name="cog" color={color} />,
         }}
-      />
+      /> */}
       <Tabs.Screen
         name="sandwich"
         options={{
